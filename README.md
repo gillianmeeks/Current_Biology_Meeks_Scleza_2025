@@ -32,18 +32,18 @@ Contains code for the main partnership analyses featured in:
 - **Figures 1 and 2**
 - **Figures S5–S7**
 
-**Note:** The partnership dataframe is not provided due to sensitivity of participant information.
+**Note:** The partnership dataframe is not provided due to sensitivity of information.
 
 ---
 
 ### `Grantham_distance/`
 - Includes FASTA files of multiple sequence alignments for peptide-binding group amino acid sequences.
-- Contains scripts for calculating pairwise divergence statistics.
+- Contains scripts for calculating pairwise divergence statistics between partners' alleles.
 
 ---
 
 ### `Pathogen_binding/`
-- Contains binding dataframes with binding scores to all pathogen peptides for all alleles in the population.
+- Contains binding dataframes with binding scores to all pathogen peptides we provided to netMHCpan and NetMHCpanII for all alleles in the population.
 - `create_children.ipynb`: Simulates potential offspring genotypes.
 - `Predicted_binding_parallel_class*.R`: R scripts for cross-referencing predicted offspring genotypes with binding data.
 
@@ -59,7 +59,7 @@ Contains code for the main partnership analyses featured in:
 
 ### `Phasing/`
 - `HIBAG_to_phase_HLA_haplotypes.ipynb`:  
-  Phases haplotypes using HIBAG imputed SNP array data and compares with known HLA alleles.
+  Phases haplotypes using HIBAG imputed SNP array data (available on dbGaP phs001995.v2.p1) and compares with known HLA alleles (to be availalbe at same dbGaP accession).
   
 - `Comparing_haplotype_freqs.ipynb`:  
   Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019).
