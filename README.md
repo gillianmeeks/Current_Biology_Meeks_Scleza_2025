@@ -10,4 +10,4 @@ Grantham_distance: Contains the fasta files of the multiple sequence alignments 
 
 Pathogen_binding: Contains the code for the pathogen binding cross-referencing. No partnership data provided due to sensitivity of information. Contains binding dataframes with the binding scores to all the pathogen peptides for all alleles in the population. create_children.ipynb contains code to create potential offspring genotypes. Predicted_binding_parallel_class*R contain R code that cross reference potential offspring genotypes to binding dataframes. 
 
-IBD_sharing_rate: Contains code used to calculate IBD sharing rates (Figure 4)
+IBD_sharing_rate: Contains code used to calculate IBD sharing rates (Figure 4) [....add in description...]
