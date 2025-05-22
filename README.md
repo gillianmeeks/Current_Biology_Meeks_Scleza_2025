@@ -25,6 +25,8 @@ Includes:
   In *Immunobiology of the MHC: Proceedings of the 13th International Histocompatibility Workshop and Conference*,  
   J. A. Hansen (Ed.), IHWG Press, pp. 557–766.
 
+-`Himba_allele_freqs_df.RData` contains allele frequency dataframe for the unrelated set of Himba (n=102, no closer than 4th degree relations)
+
 ---
 
 ### `Partnership_models/`
@@ -38,14 +40,15 @@ Contains code for the main partnership analyses featured in:
 
 ### `Grantham_distance/`
 - Includes FASTA files of multiple sequence alignments for peptide-binding group amino acid sequences.
-- Contains scripts for calculating pairwise divergence statistics between partners' alleles.
+- Contains the script and Grantham distance matrxi for calculating pairwise divergence statistics between partners' alleles we used, taken directly from **https://granthamdist.sourceforge.io/** **Pierini, F. & Lenz, T. L. Divergent allele advantage at human MHC genes: Signatures of past and ongoing selection. Mol. Biol. Evol. 35, 2145–2158 (2018).** 
 
 ---
 
 ### `Pathogen_binding/`
-- Contains binding dataframes with binding scores to all pathogen peptides we provided to netMHCpan and NetMHCpanII for all alleles in the population.
-- `create_children.ipynb`: Simulates potential offspring genotypes.
-- `Predicted_binding_parallel_class*.R`: R scripts for cross-referencing predicted offspring genotypes with binding data.
+- Contains binding dataframes (class*_binding_dfs.RData) with binding scores to all pathogen peptides we provided to netMHCpan **https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/** and NetMHCpanII **https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/** for all alleles in the population.
+- `create_children.ipynb`: Creates potential offspring genotypes from pairs' genotype data. 
+- `Predicted_binding_parallel_class*.R`: R scripts for cross-referencing predicted offspring genotypes with peptide binding data.
+- `pathogen_binding_by_haplotypes.ipynb`: cross-referencing common haplotypes to their unique pathogen binding (**Figures S10-11**)
 
 **Note:** No partnership data included due to privacy restrictions.
 
@@ -65,7 +68,7 @@ Contains code for the main partnership analyses featured in:
   Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019).
   
 - `Asymmetric_LD.ipynb`:  
-  Calculates asymmetric linkage disequilibrium statistics (**Figure S12**).
+  Calculates asymmetric linkage disequilibrium statistics using pould **https://cran.r-project.org/web/packages/pould/index.html** (**Figure S12**).
 
 ---
 
