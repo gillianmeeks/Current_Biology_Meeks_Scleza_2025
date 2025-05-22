@@ -1,15 +1,71 @@
-Code for the main analyses in:
-Meeks, G. L., Scelza, B., Kichula, K. M., Berevoescu, C., Hardy, K., Farias, T. D. J., Harrison, G. F., Pollock, N. R., Font-Porterias, N., Prall, S., Norman, P. J. & Henn, B. M. No evidence for disassortative mating based on HLA genotype in a natural fertility population. bioRxiv 2025.05.06.652536 (2025).
+# Code for Main Analyses
 
+**Meeks, G. L., Scelza, B., Kichula, K. M., Berevoescu, C., Hardy, K., Farias, T. D. J., Harrison, G. F., Pollock, N. R., Font-Porterias, N., Prall, S., Norman, P. J., & Henn, B. M.**  
+**_No evidence for disassortative mating based on HLA genotype in a natural fertility population._**  
+bioRxiv 2025.05.06.652536 (2025)  
+[https://doi.org/10.1101/2025.05.06.652536](https://doi.org/10.1101/2025.05.06.652536)
 
-Allelic_diversity: contains scripts and data for allele frequency pie chart S2 (unrelated individuals) and for S3 comparisons of allelic diveristy including Subsaharan African Class 1 data (from Nemat-Gorgani, N., Guethlein, L. A., Henn, B. M., Norberg, S. J., Chiaroni, J., Sikora, M., Quintana-Murci, L., Mountain, J. L., Norman, P. J. & Parham, P. Diversity of KIR, HLA class I, and their interactions in seven populations of sub-Saharan Africans. J. Immunol. 202, 2636–2647 (2019). and IHWG population data from 	Mack, S.J., and Erlich, H.A. (2007). Anthropology/human genetic diver- sity joint report. In Immunobiology of the MHC Proceedings of the 13th International Histocompatibility Workshop and Conference, J.A. Hansen, ed. (IHWG Press), pp. 557–766.
+---
 
-Partnerhsip_models: Contains the code for the main partnership analyses (Figures 1 and 2, S5-7). Partnership dataframe not provided due to sensitivity of information.
+## 📁 Directory Overview
 
-Grantham_distance: Contains the fasta files of the multiple sequence alignments for the amino acid sequences of the peptides binding groups and the pairwise divergence stats.
+### `Allelic_diversity/`
+Contains scripts and data for:
+- **Figure S2**: Allele frequency pie charts (unrelated individuals).
+- **Figure S3**: Comparisons of allelic diversity.
 
-Pathogen_binding: Contains the code for the pathogen binding cross-referencing. No partnership data provided due to sensitivity of information. Contains binding dataframes with the binding scores to all the pathogen peptides for all alleles in the population. create_children.ipynb contains code to create potential offspring genotypes. Predicted_binding_parallel_class*R contain R code that cross reference potential offspring genotypes to binding dataframes. 
+Includes:
+- Sub-Saharan African Class I data from:  
+  *Nemat-Gorgani, N., Guethlein, L. A., Henn, B. M., Norberg, S. J., Chiaroni, J., Sikora, M., Quintana-Murci, L., Mountain, J. L., Norman, P. J., & Parham, P.*  
+  *Diversity of KIR, HLA class I, and their interactions in seven populations of sub-Saharan Africans.*  
+  *J. Immunol.* **202**, 2636–2647 (2019).
 
-IBD_sharing_rate: Contains code used to calculate IBD sharing rates (Figure 4) [....add in description...]
+- IHWG population data from:  
+  *Mack, S. J., & Erlich, H. A. (2007). Anthropology/human genetic diversity joint report.*  
+  In *Immunobiology of the MHC: Proceedings of the 13th International Histocompatibility Workshop and Conference*,  
+  J. A. Hansen (Ed.), IHWG Press, pp. 557–766.
 
-Phasing: HIBAG_to_phase_HLA_haplotypes.ipynb contains code to phase haplotypes via hibag imputation of paired SNP array data and comparison with known HLA alleles. Comparing_haplotype_freqs.ipynb contains code used to compare haplotype frequencies to Sub-Saharan African frequencies (Nemat-Gorgani et al., 2019). Asymmetric_LD.ipynb contains code used to calculate LD stats (Figure S12). 
+---
+
+### `Partnership_models/`
+Contains code for the main partnership analyses featured in:
+- **Figures 1 and 2**
+- **Figures S5–S7**
+
+**Note:** The partnership dataframe is not provided due to sensitivity of participant information.
+
+---
+
+### `Grantham_distance/`
+- Includes FASTA files of multiple sequence alignments for peptide-binding group amino acid sequences.
+- Contains scripts for calculating pairwise divergence statistics.
+
+---
+
+### `Pathogen_binding/`
+- Contains binding dataframes with binding scores to all pathogen peptides for all alleles in the population.
+- `create_children.ipynb`: Simulates potential offspring genotypes.
+- `Predicted_binding_parallel_class*.R`: R scripts for cross-referencing predicted offspring genotypes with binding data.
+
+**Note:** No partnership data included due to privacy restrictions.
+
+---
+
+### `IBD_sharing_rate/`
+- Code used to calculate IBD sharing rates for **Figure 4**.  
+*(Additional documentation to be added.)*
+
+---
+
+### `Phasing/`
+- `HIBAG_to_phase_HLA_haplotypes.ipynb`:  
+  Phases haplotypes using HIBAG imputed SNP array data and compares with known HLA alleles.
+  
+- `Comparing_haplotype_freqs.ipynb`:  
+  Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019).
+  
+- `Asymmetric_LD.ipynb`:  
+  Calculates asymmetric linkage disequilibrium statistics (**Figure S12**).
+
+---
+
