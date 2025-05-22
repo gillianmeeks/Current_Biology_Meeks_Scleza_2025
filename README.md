@@ -63,6 +63,7 @@ Contains code for the main partnership analyses featured in:
 ### `Phasing/`
 - `HIBAG_to_phase_HLA_haplotypes.ipynb`:  
   Phases HLA allele-based haplotypes using imputation via HIBAG **https://www.bioconductor.org/packages/release/bioc/html/HIBAG.html** models created with phased SNP array data (array data available on dbGaP phs001995.v2.p1) and paired target-capture HLA allele calls. The models are used on pseudo-homozygous SNP array data extracted from the phased array data. HIBAG imputed pseudo-homozygou allele calls are then compared with known target-captured HLA allele calls (to be available at same dbGaP accession) to resolve haplotypes.
+  **Note:** No hibag models provided because they contain sensitive genotypic information
   
 - `Comparing_haplotype_freqs.ipynb`:  
   Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019) (**Figure S9**).
@@ -70,6 +71,5 @@ Contains code for the main partnership analyses featured in:
 - `Asymmetric_LD.ipynb`:  
   Calculates asymmetric linkage disequilibrium statistics using pould **https://cran.r-project.org/web/packages/pould/index.html** (**Figure S12**).
 
-**Note:** Hibag models not provided due to privancy restrictions.
 ---
 
