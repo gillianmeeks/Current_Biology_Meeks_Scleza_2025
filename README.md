@@ -12,4 +12,4 @@ Pathogen_binding: Contains the code for the pathogen binding cross-referencing. 
 
 IBD_sharing_rate: Contains code used to calculate IBD sharing rates (Figure 4) [....add in description...]
 
-Phasing: HIBAG_to_phase_HLA_haplotypes.ipynb contains code to phase haplotypes via hibag imputation of paired SNP array data and comparison with known HLA alleles. Comparing_haplotype_freqs.ipynb contains code used to compare haplotype frequencies to sub-Saharan populations. Asymmetric_LD.ipynb contains code used to calculate LD stats (Figure S12). Actual phased haplotype and snp array data not provided here.
+Phasing: HIBAG_to_phase_HLA_haplotypes.ipynb contains code to phase haplotypes via hibag imputation of paired SNP array data and comparison with known HLA alleles. Comparing_haplotype_freqs.ipynb contains code used to compare haplotype frequencies to Sub-Saharan African frequencies (Nemat-Gorgani et al., 2019). Asymmetric_LD.ipynb contains code used to calculate LD stats (Figure S12). Actual phased haplotype and snp array data not provided here.
