@@ -62,7 +62,7 @@ Contains code for the main partnership analyses featured in:
 
 ### `Phasing/`
 - `HIBAG_to_phase_HLA_haplotypes.ipynb`:  
-  Phases haplotypes using HIBAG imputed SNP array data (available on dbGaP phs001995.v2.p1) and compares with known HLA alleles (to be availalbe at same dbGaP accession).
+  Phases HLA allele-based haplotypes using imputation via a HIBAG **https://www.bioconductor.org/packages/release/bioc/html/HIBAG.html** model created with paired phased SNP array data (array data available on dbGaP phs001995.v2.p1) and target-capture HLA allele calls. Model is employed on pseudo-homozygous SNP array data extracted from the phased array data, HIBAG imputed pseudo-homozygou allele calls are compared with known target-captured HLA allele calls (to be available at same dbGaP accession) to resolve haplotypes.
   
 - `Comparing_haplotype_freqs.ipynb`:  
   Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019).
