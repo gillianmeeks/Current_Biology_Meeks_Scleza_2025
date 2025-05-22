@@ -40,7 +40,7 @@ Contains code for the main partnership analyses featured in:
 
 ### `Grantham_distance/`
 - Includes FASTA files of multiple sequence alignments for peptide-binding group amino acid sequences for each HLA gene analyzed.
-- Contains the script and Grantham distance matrix for calculating pairwise divergence statistics between partners' alleles we used, taken directly from **https://granthamdist.sourceforge.io/** **Pierini, F. & Lenz, T. L. Divergent allele advantage at human MHC genes: Signatures of past and ongoing selection. Mol. Biol. Evol. 35, 2145–2158 (2018).** 
+- Contains the script and Grantham distance matrix for calculating pairwise divergence statistics between partners' alleles, taken directly from **https://granthamdist.sourceforge.io/** **Pierini, F. & Lenz, T. L. Divergent allele advantage at human MHC genes: Signatures of past and ongoing selection. Mol. Biol. Evol. 35, 2145–2158 (2018).** 
 
 ---
 
