@@ -29,7 +29,7 @@ Includes:
 
 ---
 
-### `Partnership_models/`
+### `FINAL_manuscript_models.ipynb`
 Contains code for the main partnership analyses featured in:
 - **Figures 1 and 2**
 - **Figures S5–S7**
