@@ -56,7 +56,19 @@ Contains code for the main partnership analyses featured in:
 
 ### `IBD_sharing_rate/`
 - Code used to calculate IBD sharing rates for **Figure 4**.  
-*(Additional documentation to be added.)*
+- `sweepline_script.py`: 
+	Program for calculating raw IBD sharing counts (coverage). This program is integrated into `automate_allchr.sh` and `averageIBDcalculator_singlechr.sh` to compute chromosome-wide or genome-wide IBD frequency values, respectively.
+- `averageIBDcalculator_singlechr.sh`: 
+	Computes chromosome-wide IBD frequency values at all base pairs for a specified chromosome.
+- `automate_allchr.sh`: 
+	Computes genome-wide IBD frequency values.
+- `stacked_plots.R`:
+	This R script generates the IBD frequency plot in **Figure 4**. 
+- `final_chr6_files`:
+	Includes two files, `chr6_binned_random_unrelateds_IBDcoverage.csv` and `chr6_binned_subset_IBDcoverage.csv`, the IBD coverage output files for an unrelated set of individuals and a subset of individuals with common haplotypes from the original Himba dataset, respectively.
+	These files are processed output files of the IBD frequency calculator program, `averageIBDcalculator_singlechr.sh`, binned in the method used in the `stacked_plots.R` program - the IBD frequency is averaged and reported for 1000 base pair bins.
+- `GRCh37_chromosome_lengths.csv`:
+	A file that includes the lengths of GRCh37 chromosomes 1-22, to be used for computing genome-wide IBD sharing rates with `automate_allchr.sh`.
 
 ---
 
