@@ -65,7 +65,7 @@ Contains code for the main partnership analyses featured in:
 - `stacked_plots.R`:
 	This R script generates the IBD frequency plot in **Figure 4**. 
 - `final_chr6_files`:
-	Includes two files, `chr6_binned_random_unrelateds_IBDcoverage.csv` and `chr6_binned_subset_IBDcoverage.csv`, the IBD coverage output files for the unrelated set of individuals used in the partnership analyses **Figure 4A**. and the subset of unrelated individuals from the allele frequency analyses with common haplotypes from the original Himba dataset, respectively **Figure 4B**.
+	Includes two files, `chr6_binned_random_unrelateds_IBDcoverage.csv` and `chr6_binned_subset_IBDcoverage.csv`, the IBD coverage output files for the unrelated set of individuals used in the partnership analyses (**Figure 4A**) and the subset of unrelated individuals from the allele frequency analyses with common haplotypes (**Figure 4B**), respectively .
 	These files are processed output files of the IBD frequency calculator program, `averageIBDcalculator_singlechr.sh`, binned in the method used in the `stacked_plots.R` program - the IBD frequency is averaged and reported for 1000 base pair bins.
 - `GRCh37_chromosome_lengths.csv`:
 	A file that includes the lengths of GRCh37 chromosomes 1-22, to be used for computing genome-wide IBD sharing rates with `automate_allchr.sh`.
