@@ -11,7 +11,7 @@ bioRxiv 2025.05.06.652536 (2025)
 
 ### `Allelic_diversity/`
 Contains scripts and data for:
-- **Figure S2**: Allele frequency pie charts (unrelated individuals).
+- **Figure 1**: Allele frequency pie charts (unrelated individuals).
 - **Figure S3**: Comparisons of allelic diversity.
 
 Includes:
@@ -31,8 +31,8 @@ Includes:
 
 ### `FINAL_manuscript_models.ipynb`
 Contains code for the main partnership analyses featured in:
-- **Figures 1 and 2**
-- **Figures S5–S7**
+- **Figures 2 and 3**
+- **Figures S4–S6**
 
 **Note:** The partnership dataframe is not provided due to sensitivity of information.
 
@@ -48,14 +48,14 @@ Contains code for the main partnership analyses featured in:
 - Contains binding dataframes (class*_binding_dfs.RData) with binding scores to all pathogen peptides we provided to netMHCpan **https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/** and NetMHCpanII **https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/** for all alleles in the population.
 - `create_children.ipynb`: Creates potential offspring genotypes from pairs' genotype data. 
 - `Predicted_binding_parallel_class*.R`: R scripts for cross-referencing predicted offspring genotypes with peptide binding data.
-- `pathogen_binding_by_haplotypes.ipynb`: cross-referencing common haplotypes to their unique pathogen binding (**Figures S10-11**)
+- `pathogen_binding_by_haplotypes.ipynb`: cross-referencing common haplotypes to their unique pathogen binding (**Figures S9-10**)
 
 **Note:** No partnership data included due to privacy restrictions.
 
 ---
 
 ### `IBD_sharing_rate/`
-- Code used to calculate IBD sharing rates for **Figure 4**.  
+- Code used to calculate IBD sharing rates for **Figure 5**.  
 - `sweepline_script.py`: 
 	Program for calculating raw IBD sharing counts (coverage). This program is integrated into `automate_allchr.sh` and `averageIBDcalculator_singlechr.sh` to compute chromosome-wide or genome-wide IBD frequency values, respectively.
 - `averageIBDcalculator_singlechr.sh`: 
@@ -63,9 +63,9 @@ Contains code for the main partnership analyses featured in:
 - `automate_allchr.sh`: 
 	Computes genome-wide IBD frequency values.
 - `stacked_plots.R`:
-	This R script generates the IBD frequency plot in **Figure 4**. 
+	This R script generates the IBD frequency plot in **Figure 5**. 
 - `final_chr6_files`:
-	Includes two files, `chr6_binned_random_unrelateds_IBDcoverage.csv` and `chr6_binned_subset_IBDcoverage.csv`, the IBD coverage output files for the unrelated set of individuals used in the partnership analyses (**Figure 4A**) and the subset of unrelated individuals from the allele frequency analyses with common haplotypes (**Figure 4B**), respectively .
+	Includes two files, `chr6_binned_random_unrelateds_IBDcoverage.csv` and `chr6_binned_subset_IBDcoverage.csv`, the IBD coverage output files for the unrelated set of individuals used in the partnership analyses (**Figure 5A**) and the subset of unrelated individuals from the allele frequency analyses with common haplotypes (**Figure 4B**), respectively .
 	These files are processed output files of the IBD frequency calculator program, `averageIBDcalculator_singlechr.sh`, binned in the method used in the `stacked_plots.R` program - the IBD frequency is averaged and reported for 1000 base pair bins.
 - `GRCh37_chromosome_lengths.csv`:
 	A file that includes the lengths of GRCh37 chromosomes 1-22, to be used for computing genome-wide IBD sharing rates with `automate_allchr.sh`.
@@ -78,10 +78,10 @@ Contains code for the main partnership analyses featured in:
   **Note:** No hibag models provided because they contain sensitive genotypic information
   
 - `Comparing_haplotype_freqs.ipynb`:  
-  Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019) (**Figure S9**).
+  Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019) (**Figure S8**).
   
 - `Asymmetric_LD.ipynb`:  
-  Calculates asymmetric linkage disequilibrium statistics using pould **https://cran.r-project.org/web/packages/pould/index.html** (**Figure S12**).
+  Calculates asymmetric linkage disequilibrium statistics using pould **https://cran.r-project.org/web/packages/pould/index.html** (**Figure S11**).
 
 ---
 
