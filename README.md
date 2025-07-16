@@ -10,17 +10,17 @@ bioRxiv 2025.05.06.652536 (2025)
 ## 📁 Directory Overview
 
 ### `Allelic_diversity/`
-Contains scripts and data for:
+`Sample_size_by_allelic_diversity.ipynb` contains code to produce:
 - **Figure 1**: Allele frequency pie charts (unrelated individuals).
-- **Figure S3**: Comparisons of allelic diversity.
+- **Figure S3-S4**: Comparisons of allelic diversity.
 
 Includes:
-- Sub-Saharan African Class I data from:  
+- `sub-saharan_*.csv` Sub-Saharan African Class I data from:  
   *Nemat-Gorgani, N., Guethlein, L. A., Henn, B. M., Norberg, S. J., Chiaroni, J., Sikora, M., Quintana-Murci, L., Mountain, J. L., Norman, P. J., & Parham, P.*  
   *Diversity of KIR, HLA class I, and their interactions in seven populations of sub-Saharan Africans.*  
   *J. Immunol.* **202**, 2636–2647 (2019).
 
-- IHWG population data from:  
+- `IHWG_p_group_all.RData` IHWG population data from:  
   *Mack, S. J., & Erlich, H. A. (2007). Anthropology/human genetic diversity joint report.*  
   In *Immunobiology of the MHC: Proceedings of the 13th International Histocompatibility Workshop and Conference*,  
   J. A. Hansen (Ed.), IHWG Press, pp. 557–766.
