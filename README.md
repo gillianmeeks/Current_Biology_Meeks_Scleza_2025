@@ -11,7 +11,7 @@ bioRxiv 2025.05.06.652536 (2025)
 
 ### `Allelic_diversity/`
 `Sample_size_by_allelic_diversity.ipynb` contains code to produce:
-- **Figure 1**: Allele frequency pie charts (unrelated individuals).
+- **Figure 1**: Allelic diversity vs sample size comparisons (unrelated individuals).
 - **Figure S3-S4**: Comparisons of allelic diversity.
 
 Includes:
