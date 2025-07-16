@@ -32,7 +32,7 @@ Includes:
 ### `FINAL_manuscript_models.ipynb`
 Contains code for the main partnership analyses featured in:
 - **Figures 2 and 3**
-- **Figures S4–S6**
+- **Figures S6–S8**
 
 **Note:** The partnership dataframe is not provided due to sensitivity of information.
 
@@ -48,7 +48,7 @@ Contains code for the main partnership analyses featured in:
 - Contains binding dataframes (class*_binding_dfs.RData) with binding scores to all pathogen peptides we provided to netMHCpan **https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/** and NetMHCpanII **https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/** for all alleles in the population.
 - `create_children.ipynb`: Creates potential offspring genotypes from pairs' genotype data. 
 - `Predicted_binding_parallel_class*.R`: R scripts for cross-referencing predicted offspring genotypes with peptide binding data.
-- `pathogen_binding_by_haplotypes.ipynb`: cross-referencing common haplotypes to their unique pathogen binding (**Figures S9-10**)
+- `pathogen_binding_by_haplotypes.ipynb`: cross-referencing common haplotypes to their unique pathogen binding (**Figures S12-13**)
 
 **Note:** No partnership data included due to privacy restrictions.
 
@@ -80,10 +80,10 @@ Contains code for the main partnership analyses featured in:
   **Note:** No hibag models provided because they contain sensitive genotypic information
   
 - `Comparing_haplotype_freqs.ipynb`:  
-  Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019) (**Figure S8**).
+  Compares inferred haplotype frequencies with Sub-Saharan African reference data (Nemat-Gorgani *et al.*, 2019) (**Figure S11**).
   
 - `Asymmetric_LD.ipynb`:  
-  Calculates asymmetric linkage disequilibrium statistics using pould **https://cran.r-project.org/web/packages/pould/index.html** (**Figure S11**).
+  Calculates asymmetric linkage disequilibrium statistics using pould **https://cran.r-project.org/web/packages/pould/index.html** (**Figure S1**).
 
 ---
 
